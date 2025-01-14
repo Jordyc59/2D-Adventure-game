@@ -171,3 +171,19 @@ Received Import Request.
 Start importing Assets/Animation/Ruby/Enemy/Enemy.controller using Guid(096cc21921ae6456182fbfc6a83994f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ca51ff4dd64317840da92a51780049') in 0.005411 seconds 
   Import took 0.009131 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 428.742055 seconds.
+  path: Assets/Animation/SugarLand/Enemy
+  artifactKey: Guid(d8cdbc7e5a9494249b2e8716d7a505c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/SugarLand/Enemy using Guid(d8cdbc7e5a9494249b2e8716d7a505c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d9ec436577d50e9c282325cbbcb8b3') in 0.001034 seconds 
+  Import took 0.004683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.978613 seconds.
+  path: Assets/Animation/Ducko/Enemy/EnemyLeft.anim
+  artifactKey: Guid(38d0f4f7964f5ff429c60c24535c0473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Ducko/Enemy/EnemyLeft.anim using Guid(38d0f4f7964f5ff429c60c24535c0473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479f98321341a9797b2e04f6eccaa8c0') in 0.003083 seconds 
+  Import took 0.006102 seconds .
+
