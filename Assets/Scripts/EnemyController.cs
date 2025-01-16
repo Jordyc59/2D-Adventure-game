@@ -52,7 +52,7 @@ public class EnemyController : MonoBehaviour
         {
             position.x = position.x + speed * direction * Time.deltaTime;
             animator.SetFloat("Move X", direction);
-            animator.SetFloat("Move Y",);
+            animator.SetFloat("Move Y", 0);
         }
 
         rigidbody2d.MovePosition(position);

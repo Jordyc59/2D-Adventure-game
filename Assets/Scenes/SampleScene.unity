@@ -346,7 +346,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 831832a789fb14d22a5916cd7829b892, type: 2}
+  - {fileID: 2100000, guid: 1566b19513ede4724be3a61ddcf30546, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -49096,7 +49096,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24bc99d84ef5f4775bf31804970fd33b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mask: {fileID: 0}
+  mask: {fileID: 738022163}
 --- !u!1001 &1095985475
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49634,10 +49634,11 @@ GameObject:
   - component: {fileID: 1433440393}
   - component: {fileID: 1433440395}
   - component: {fileID: 1433440394}
-  m_Layer: 0
+  - component: {fileID: 1433440396}
+  m_Layer: 8
   m_Name: PlayerCharacter
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -49767,8 +49768,10 @@ MonoBehaviour:
       m_Action: Move Actionz
       m_Flags: 8
     m_Flags: 0
+  speed: 3
   maxHealth: 5
   timeInvincible: 2
+  projectilePrefab: {fileID: 4865407403820444411, guid: 136184e1f48b4445395e3fd5fdb3f085, type: 3}
 --- !u!61 &1433440394
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -49815,7 +49818,19 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
+--- !u!114 &1433440396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433440390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e6f1f5af53654b88985454d91b6d8b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1466549472
 PrefabInstance:
   m_ObjectHideFlags: 0
