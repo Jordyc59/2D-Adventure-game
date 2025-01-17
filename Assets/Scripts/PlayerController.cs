@@ -44,6 +44,10 @@ public class PlayerController : MonoBehaviour
       moveDirection.Set(move.x, move.y);
       moveDirection.Normalize();
      }
+
+      animator.SetFloat("Look X", moveDirection.x);
+     animator.SetFloat("Look Y", moveDirection.y);
+     animator.SetFloat("Speed", move.magnitude);
       if (isInvincible)
       {
          damageCooldown -= Time.deltaTime;
